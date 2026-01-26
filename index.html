@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Buku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/App.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Data <span>Buku</span></h1>
+                <p>Kelola koleksi buku dengan mudah dan modern</p>
+            </div>
+            <button class="btn btn-primary" id="btnAddBook">Tambah Buku</button>
+        </header>
+
+        <section class="search-bar">
+            <div class="input-group">
+                <input type="text" placeholder="Cari judul buku, penerbit atau tahun terbit...">
+            </div>
+        </section>
+
+        <section class="grid-books" id="bookGrid">
+            <div class="card-siswa">
+                <div class="card-content">
+                    <div class="student-head">
+                        <div class="avatar-siswa">B</div>
+                        <div class="info-siswa">
+                            <h3>Bumi (Series)</h3>
+                            <span class="penerbit">Gramedia Pustaka Utama</span>
+                        </div>
+                    </div>
+                    <div class="detail-siswa">
+                        <span class="detail-label">Tahun Terbit</span>
+                        <span class="badge-tahun">2014</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-btn btn-edit">Edit</button>
+                        <button class="action-btn btn-delete">Hapus</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-siswa">
+                <div class="card-content">
+                    <div class="student-head">
+                        <div class="avatar-siswa">L</div>
+                        <div class="info-siswa">
+                            <h3>Laskar Pelangi</h3>
+                            <span class="penerbit">Bentang Pustaka</span>
+                        </div>
+                    </div>
+                    <div class="detail-siswa">
+                        <span class="detail-label">Tahun Terbit</span>
+                        <span class="badge-tahun">2005</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-btn btn-edit">Edit</button>
+                        <button class="action-btn btn-delete">Hapus</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-siswa">
+                <div class="card-content">
+                    <div class="student-head">
+                        <div class="avatar-siswa">H</div>
+                        <div class="info-siswa">
+                            <h3>Hafalan Shalat Delisa</h3>
+                            <span class="penerbit">Republika</span>
+                        </div>
+                    </div>
+                    <div class="detail-siswa">
+                        <span class="detail-label">Tahun Terbit</span>
+                        <span class="badge-tahun">2005</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-btn btn-edit">Edit</button>
+                        <button class="action-btn btn-delete">Hapus</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
